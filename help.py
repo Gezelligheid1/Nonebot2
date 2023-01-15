@@ -14,6 +14,5 @@ async def bot_help(bot: Bot, event: Event):
 4.重复："/echo"+ 语句
 5.疯狂星期四
 6.猜单词：/wordle [-l --length <length>] [-d --dic <dic>] [--hint] [--stop] [word]
-7.表情相加
-'''
+7.表情相加'''
     await bot.send(event=event, message=answer)
